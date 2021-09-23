@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <script src=""></script>
-    <section id="apps">
-        <h1>Apps</h1>
-      <div class="line"></div>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/KzqE_yg7pJq7BuBMNW0D1UjVOGHKQq2i9_610HsPk0M/embed"></iframe>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/IKupXca5FQ5du7es40QorVRJDxtkrlrUm3KFghMEb5A/embed"></iframe>
-    </section>
-    <section id="games">
-        <h1>Games</h1>
-      <div class="line"></div>
-        <a href="https://studio.code.org/projects/spritelab/0eWddwW2eeSUbvIKwbFzX3NmLD6wO7pmwRsJDWqiqiA"><img src="coins.png"></a>
-        <a href="https://studio.code.org/projects/spritelab/83ztZyEPei4R7UqKDRuxmjUgIPlJt61L1XInVzQRHIA"><img src="code.corg.png"></a>
+
+    <div class="container">
+
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
         </section>
-    <section id="chatbot">
-        <h1>Chatbot</h1>
-        <div class="line"></div>
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/2c40b33b-e2a4-4c00-986e-6c4b91cc17ef">
-</iframe>
-    </section>
+
+
+        <h2 click on the game to explore></h2>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/0eWddwW2eeSUbvIKwbFzX3NmLD6wO7pmwRsJDWqiqiA/edit" target="_blank">
+                            <img src="coins.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>collect all coins </p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/v8qc_tNP75ToaC78EdV7-squHswpZH7-wx1vjzT1cRg" target="_blank">
+                            <img src="save kerdo.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p> old car game </p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class=" left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+            </a>
+            <a class=" right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+            </a>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
